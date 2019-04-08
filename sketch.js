@@ -1,6 +1,7 @@
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  var canvas = createCanvas(windowWidth, windowHeight);
+  canvas.parent('header');
 }
 var mouseX=0
 var mouseY=0
